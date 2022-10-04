@@ -9,5 +9,17 @@
 body {
     font-family: lato, sans-serif;
     font-weight: 300;
+    color: #3b3b3b;
 }
 
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #2c2c2c;
+}
+
+#logo {
+    float: left;
+    font-size: 230%;
+}
