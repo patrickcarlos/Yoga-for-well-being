@@ -54,17 +54,39 @@ h1, h2 {
 .fixe {
     border-bottom: 1px solid #3b3b3b;
 }
-
+/*main image and cover text */
 /* Main image */
 .main-outer {
-    height: 500px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 220px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: rgba(204, 146, 70, 0.575);
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+
+}
+
+
+#cover-text, #cover-text h2 {
+    color: #fff;
 }
 
 
 #main-image {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: url('../images/woman-blue-yoga-sports.jpg') no-repeat center;
 
