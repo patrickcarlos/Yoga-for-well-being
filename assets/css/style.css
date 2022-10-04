@@ -54,3 +54,29 @@ h1, h2 {
 .fixe {
     border-bottom: 1px solid #3b3b3b;
 }
+
+/* Main image */
+.main-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+#main-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/woman-blue-yoga-sports.jpg') no-repeat center;
+
+    /*animation zoom effect on loading page */
+    animation-name: main-zoom;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes  main-zoom {
+    from { transform: scale(1);}
+    to { transform: scale(1.1);}
+}
+
