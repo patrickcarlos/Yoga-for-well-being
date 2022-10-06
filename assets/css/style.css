@@ -12,6 +12,14 @@ body {
     color: #3b3b3b;
 }
 
+.first {
+    color: teal;
+}
+
+nav {
+    background-color: cadetblue;
+}
+
 /* headings logo and icon */
 h1, h2 {
     font-family: Oswald, sans-serif;
@@ -19,6 +27,8 @@ h1, h2 {
     letter-spacing: 4px;
     color: #2c2c2c;
 }
+
+
 
 #logo {
     float: left;
@@ -100,5 +110,78 @@ h1, h2 {
 @keyframes  main-zoom {
     from { transform: scale(1);}
     to { transform: scale(1.1);}
+}
+
+
+/* main classes */
+
+#our-classes {
+    padding: 3rem 7%;
+    background: burlywood;
+}
+h2 {
+    margin-bottom: 15px;
+}
+
+#class-1 {
+    width: 100%;
+    height: 100%;
+}
+
+#our-classes h1 {
+
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#class-1, #class-2, #class-3, #class-4, #class-5, #class-6 {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+hr {
+    border-top: 1px solid #3b3b3b;
+    width: 100%;
+    margin: -5px 0;
+}
+
+#image-1, #image-3, #image-5 {
+    float: left;
+    width: 40%;
+    padding-top: 30px;
+    border-radius: 25%;
+}
+
+#class-content-1, #class-content-3, #class-content-5 {
+    float: right;
+    font-size: 130%;
+    letter-spacing: 1px;
+    width: 40%;
+    padding-top: 30px;
+    padding-right: 15%;
+    line-height: 20px;
+    text-align: left;
+}
+
+
+#image-2, #image-4, #image-6 {
+    float: right;
+    padding-top: 30px;
+    width: 40%;
+    border-radius: 25%;
+}
+
+#class-content-2, #class-content-4, #class-content-6 {
+    float: left;
+    font-size: 130%;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    padding-left: 15%;
+    width: 40%;
+    line-height: 20px;
+    text-align: right;
 }
 
