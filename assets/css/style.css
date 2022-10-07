@@ -371,15 +371,20 @@ footer {
         flex-direction: column;
         clear: both;
         height: 90%;
+    } 
+}
+/* main outer responsive */
+@media screen and (max-width: 950px) {
+    #cover-text {
+        left: 0;
     }
+}
 
+/* logo responsive */
 
+@media screen and (max-width: 950px) {
 
-
-
-
-    
-
-    
-    
+    #logo {
+        text-align: center;
+    }
 }
