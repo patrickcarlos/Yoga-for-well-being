@@ -195,7 +195,7 @@ hr {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
-    background: url(/assets/images/background-contact.jpg) no-repeat;
+    background: url('/assets/images/background-contact.jpg') no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
