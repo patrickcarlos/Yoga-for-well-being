@@ -331,21 +331,21 @@ footer {
 /*responsive our classes */
 
 @media screen and (max-width: 950px) {
-    #class-content-1, #emty-1 { 
+    #class-content-1 { 
         width: 90%;
         flex-direction: column;
         clear: both;
         height: 90%;
     }
 
-    #class-content-2, #emty-2 { 
+    #class-content-2 { 
         width: 90%;
         flex-direction: column;
         clear: both;
         height: 90%;
     }
 
-    #class-content-3, #emty-3 { 
+    #class-content-3 { 
         width: 90%;
         flex-direction: column;
         clear: both;
@@ -366,7 +366,7 @@ footer {
         height: 90%;
     }
 
-    #class-content-6, #emty-6 { 
+    #class-content-6 { 
         width: 90%;
         flex-direction: column;
         clear: both;
@@ -376,7 +376,7 @@ footer {
 /* main outer responsive */
 @media screen and (max-width: 950px) {
     #cover-text {
-        left: 0;
+        padding: 0;
     }
 }
 
