@@ -152,7 +152,7 @@ hr {
     margin: 5px 0;
 }
 
-#image-1, #image-3, #image-5 {
+#emty-1, #emty-3, #emty-5 {
     float: left;
     width: 40%;
     padding-top: 30px;
@@ -171,7 +171,7 @@ hr {
 }
 
 
-#image-2, #image-4, #image-6 {
+#emty-2, #emty-4, #emty-6 {
     float: right;
     padding-top: 30px;
     width: 40%;
@@ -331,42 +331,42 @@ footer {
 /*responsive our classes */
 
 @media screen and (max-width: 950px) {
-    #class-content-1, #image-1 { 
+    #class-content-1, #emty-1 { 
         width: 90%;
         flex-direction: column;
         clear: both;
         height: 90%;
     }
 
-    #class-content-2, #image-2 { 
+    #class-content-2, #emty-2 { 
         width: 90%;
         flex-direction: column;
         clear: both;
         height: 90%;
     }
 
-    #class-content-3, #image-3 { 
+    #class-content-3, #emty-3 { 
         width: 90%;
         flex-direction: column;
         clear: both;
         height: 90%;
     }
 
-    #class-content-4, #image-4 { 
+    #class-content-4, #emty-4 { 
         width: 90%;
         flex-direction: column;
         clear: both;
         height: 90%;
     }
 
-    #class-content-5, #image-5 { 
+    #class-content-5, #emty-5 { 
         width: 90%;
         flex-direction: column;
         clear: both;
         height: 90%;
     }
 
-    #class-content-6, #image-6 { 
+    #class-content-6, #emty-6 { 
         width: 90%;
         flex-direction: column;
         clear: both;
